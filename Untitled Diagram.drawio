@@ -1,1 +1,292 @@
-<mxfile host="app.diagrams.net" modified="2021-05-22T16:54:39.573Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.7.0" etag="_YnpjUXbCmH93jZoWHxq" type="github"><diagram id="o9fViKnMFlY9FMs_aVHH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-22T17:18:18.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="H99cVDe3jzhqivEyXGgd" version="14.7.0" type="github">
+  <diagram id="o9fViKnMFlY9FMs_aVHH" name="Page-1">
+    <mxGraphModel dx="1022" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-1" value="Source DB" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="105" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-2" value="Database&amp;nbsp; Migration to Snowflake - Scenario 1 [Each table is loaded one to one]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="20" width="560" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-3" value="Talend or any other ETL which has Snowflake connector" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-4" value="Snowflake" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-5" value="Database&amp;nbsp; Migration to Snowflake - Scenario 2&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="560" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-6" value="Source DB" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="275" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-7" value="Talend or any other ETL which has Snowflake connector" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-8" value="AWS S3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-9" value="Snowflake" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-10" value="Database&amp;nbsp; Migration to Snowflake - Scenario 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="560" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-11" value="Source DB" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="36" y="468" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-12" value="Talend or any other ETL which has Snowflake connector" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="460" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-13" value="AWS S3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="421" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-14" value="Snowflake Raw Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-15" value="Snowflake Confirmed Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="478" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-16" value="Data Integration and Data warehouse modernization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="710" width="560" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-17" value="Source DB 1&lt;br&gt;[Local System]&lt;br&gt;&lt;br&gt;Batch Data" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="761" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-18" value="Source DB 3&lt;br&gt;[Salesforce]&lt;br&gt;&lt;br&gt;Batch Data" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="990" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-19" value="Source DB 2&lt;br&gt;[AWS S3]&lt;br&gt;Real time data" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-20" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="151" as="sourcePoint" />
+            <mxPoint x="220" y="151" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="151" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-22" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="134.5" as="sourcePoint" />
+            <mxPoint x="440" y="134.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="134.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-23" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="314.5" as="sourcePoint" />
+            <mxPoint x="220" y="314.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="314.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-24" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="314.5" as="sourcePoint" />
+            <mxPoint x="440" y="314.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="314.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-25" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="304.5" as="sourcePoint" />
+            <mxPoint x="650" y="304.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="304.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-26" value="COPY INTO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="280" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-27" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="116" y="509.5" as="sourcePoint" />
+            <mxPoint x="206" y="509.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="206" y="509.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-28" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="509.5" as="sourcePoint" />
+            <mxPoint x="420" y="509.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="509.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-29" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tELlXAjIOlv9CS_jlUOX-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="507.5" as="sourcePoint" />
+            <mxPoint x="610" y="507.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="507.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-30" value="COPY INTO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="480" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-31" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="509.5" as="sourcePoint" />
+            <mxPoint x="820" y="509.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="509.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-32" value="DBT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="480" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-33" value="Snowflake Internal Stage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-34" value="Snowflake external stage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-35" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tELlXAjIOlv9CS_jlUOX-17" target="tELlXAjIOlv9CS_jlUOX-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="840" as="sourcePoint" />
+            <mxPoint x="340" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-36" value="Put" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="770" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-38" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="919.5" as="sourcePoint" />
+            <mxPoint x="200" y="919.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-40" value="Talend Snowflake Connector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-41" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="112" y="1026.5" as="sourcePoint" />
+            <mxPoint x="202" y="1026.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-42" value="Snowflake Table 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-43" value="Snowflake Table 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-44" value="Snowflake Table 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-45" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tELlXAjIOlv9CS_jlUOX-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="850" as="sourcePoint" />
+            <mxPoint x="390" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-46" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tELlXAjIOlv9CS_jlUOX-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="970" as="sourcePoint" />
+            <mxPoint x="390" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-47" value="" style="endArrow=classic;html=1;exitX=0.994;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tELlXAjIOlv9CS_jlUOX-40" target="tELlXAjIOlv9CS_jlUOX-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="1070" as="sourcePoint" />
+            <mxPoint x="390" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-48" value="Secure View" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="580" y="870" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-49" value="BI Tool Like Tableau, Power BI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-50" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tELlXAjIOlv9CS_jlUOX-44" target="tELlXAjIOlv9CS_jlUOX-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="850" as="sourcePoint" />
+            <mxPoint x="580" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-51" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.042;entryY=0.592;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tELlXAjIOlv9CS_jlUOX-43" target="tELlXAjIOlv9CS_jlUOX-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="960" as="sourcePoint" />
+            <mxPoint x="550" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-52" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tELlXAjIOlv9CS_jlUOX-42" target="tELlXAjIOlv9CS_jlUOX-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="1050" as="sourcePoint" />
+            <mxPoint x="620" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-53" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tELlXAjIOlv9CS_jlUOX-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="940" as="sourcePoint" />
+            <mxPoint x="720" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-54" value="Snowpipe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="890" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-55" value="Real time ingestion of twitter data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="1140" width="560" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-56" value="Realtime Process to push twitter data into AWS S3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-57" value="AWS S3&lt;br&gt;&lt;br&gt;Tweets Landing Area" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-58" value="Snowflake&lt;br&gt;&lt;br&gt;Tweets in raw JSON Format" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="421" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-59" value="Snowflake&lt;br&gt;&lt;br&gt;Secure View to parse the JSON into structural format" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1200" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-60" value="BI Tool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-61" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tELlXAjIOlv9CS_jlUOX-56" target="tELlXAjIOlv9CS_jlUOX-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="1240" as="sourcePoint" />
+            <mxPoint x="210" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-62" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tELlXAjIOlv9CS_jlUOX-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1250" as="sourcePoint" />
+            <mxPoint x="420" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-63" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.028;entryY=0.41;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tELlXAjIOlv9CS_jlUOX-58" target="tELlXAjIOlv9CS_jlUOX-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="1250" as="sourcePoint" />
+            <mxPoint x="600" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-64" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.067;entryY=0.556;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tELlXAjIOlv9CS_jlUOX-59" target="tELlXAjIOlv9CS_jlUOX-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="1260" as="sourcePoint" />
+            <mxPoint x="790" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tELlXAjIOlv9CS_jlUOX-65" value="Snowpipe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1200" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
