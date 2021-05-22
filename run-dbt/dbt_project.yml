@@ -3,7 +3,7 @@
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
 name: 'sm_learn_dbt'
-version: '2'
+version: 2
 
 # This setting configures which "profile" dbt uses for this project.
 profile: 'tutorial-sm-snowflake-db'
